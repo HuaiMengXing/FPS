@@ -16,7 +16,7 @@ namespace Unity.FPS.Gameplay
             PutUpNew,
         }
 
-        [Tooltip("List of weapon the player will start with")]
+        [Tooltip("玩家开始将要使用的武器列表")]
         public List<WeaponController> StartingWeapons = new List<WeaponController>();
 
         [Header("References")] [Tooltip("Secondary camera used to avoid seeing weapon go throw geometries")]

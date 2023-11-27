@@ -5,10 +5,10 @@ namespace Unity.FPS.AI
 {
     public class PatrolPath : MonoBehaviour
     {
-        [Tooltip("Enemies that will be assigned to this path on Start")]
+        [Tooltip("开始时将被分配到此路径的敌人")]
         public List<EnemyController> EnemiesToAssign = new List<EnemyController>();
 
-        [Tooltip("The Nodes making up the path")]
+        [Tooltip("组成路径的节点")]
         public List<Transform> PathNodes = new List<Transform>();
 
         void Start()
